@@ -156,4 +156,33 @@ chmod +x auto_sqli_scanner.sh
 
 
 
+## Nuclei Ultimate Scanner
+
+
+#### Prerequisites
+```
+go install -v github.com/projectdiscovery/nuclei/v3/cmd/nuclei@latest
+go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
+go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
+```
+
+#### Make it executable:
+
+```chmod +x nuclei_ultimate_scanner.sh```
+
+#### Run:
+
+```./nuclei_ultimate_scanner.sh```
+
+
+#### Output Structure
+```
+nuclei-scan-example.com-20250718/
+├── subs.txt                  # Resolved subdomains
+├── live.txt                  # Live subdomains
+├── nuclei_all_results.txt   # Main results (critical-high-medium)
+├── full_nuclei_blast.txt    # (optional) Full template scan
+```
+
+
 
