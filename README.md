@@ -134,3 +134,26 @@ You have permission to scan the target
     waybackurls: go install github.com/tomnomnom/waybackurls@latest
 
 
+
+
+## AUto SQLI Scanner
+
+#### Tools Required:
+
+    sqlmap: [apt install sqlmap]
+
+    gau: go install github.com/lc/gau/v2/cmd/gau@latest
+
+    waybackurls: go install github.com/tomnomnom/waybackurls@latest
+
+    curl
+
+#### How to Use:
+```
+chmod +x auto_sqli_scanner.sh
+./auto_sqli_scanner.sh
+```
+
+
+
+
