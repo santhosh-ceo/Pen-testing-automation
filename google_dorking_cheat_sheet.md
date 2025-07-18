@@ -5,7 +5,7 @@ Google dorking is a powerful technique used to find sensitive information, vulne
 
 ---
 
-## 1. Basic Site Search
+#### 1. Basic Site Search
 
 **Purpose:** Search within a specific domain.
 
@@ -15,7 +15,7 @@ site:target.com
 
 ---
 
-## 2. Filetype Search
+#### 2. Filetype Search
 
 **Purpose:** Find specific file types hosted on the site.
 
@@ -39,7 +39,7 @@ site:target.com
 
 ---
 
-## 3. Directory Listing Exposure
+#### 3. Directory Listing Exposure
 
 **Purpose:** Find open directory listings that may expose sensitive files.
 
@@ -49,7 +49,7 @@ site:target.com intitle:"index of"
 
 ---
 
-## 4. Login Pages
+#### 4. Login Pages
 
 **Purpose:** Find login or admin pages.
 
@@ -63,7 +63,7 @@ site:target.com inurl:admin
 
 ---
 
-## 5. Configuration Files
+#### 5. Configuration Files
 
 **Purpose:** Locate configuration or backup files that may contain sensitive info.
 
@@ -87,7 +87,7 @@ site:target.com inurl:admin
 
 ---
 
-## 6. Sensitive Information
+#### 6. Sensitive Information
 
 **Purpose:** Find exposed sensitive data like passwords, API keys, tokens.
 
@@ -111,7 +111,7 @@ site:target.com inurl:admin
 
 ---
 
-## 7. Vulnerable Files & Injection Points
+#### 7. Vulnerable Files & Injection Points
 
 **Purpose:** Identify URLs potentially vulnerable to injection or RCE.
 
@@ -135,7 +135,7 @@ site:target.com inurl:admin
 
 ---
 
-## 8. Exposed Backup & Database Files
+#### 8. Exposed Backup & Database Files
 
 **Purpose:** Find database backups or exports.
 
@@ -153,7 +153,7 @@ site:target.com inurl:admin
 
 ---
 
-## 9. Error Messages
+#### 9. Error Messages
 
 **Purpose:** Find pages displaying detailed error messages that reveal system info.
 
@@ -163,7 +163,7 @@ site:target.com intext:"Warning" OR intext:"Error on line"
 
 ---
 
-## 10. Documents Containing Sensitive Info
+#### 10. Documents Containing Sensitive Info
 
 **Purpose:** Find documents potentially containing sensitive info like credentials or configs.
 
@@ -181,7 +181,7 @@ site:target.com intext:"Warning" OR intext:"Error on line"
 
 ---
 
-## 11. Source Code Exposure
+#### 11. Source Code Exposure
 
 **Purpose:** Find exposed source code files.
 
@@ -191,7 +191,7 @@ site:target.com ext:php OR ext:js OR ext:html
 
 ---
 
-## 12. Interesting URL Parameters
+#### 12. Interesting URL Parameters
 
 **Purpose:** Identify interesting parameters that might be injectable or vulnerable.
 
@@ -205,7 +205,7 @@ site:target.com inurl:"?page="
 
 ---
 
-## 13. Find Publicly Exposed Cameras or Devices
+#### 13. Find Publicly Exposed Cameras or Devices
 
 **Purpose:** Find exposed webcams or devices.
 
@@ -219,7 +219,7 @@ site:target.com intitle:"Live View / - AXIS"
 
 ---
 
-## 14. Google Cache and Cached Data
+#### 14. Google Cache and Cached Data
 
 **Purpose:** View cached versions of pages.
 
@@ -229,7 +229,7 @@ cache:target.com
 
 ---
 
-## 15. Subdomains Enumeration
+#### 15. Subdomains Enumeration
 
 **Purpose:** Find subdomains indexed by Google.
 
@@ -239,7 +239,7 @@ site:*.target.com
 
 ---
 
-## 16. Custom Search Using Intext and Intitle
+#### 16. Custom Search Using Intext and Intitle
 
 - Find pages with "confidential" in the title:
 
@@ -255,7 +255,7 @@ site:*.target.com
 
 ---
 
-## 17. Finding Robots.txt or Sitemap.xml
+#### 17. Finding Robots.txt or Sitemap.xml
 
 - Robots.txt:
 
@@ -271,7 +271,7 @@ site:*.target.com
 
 ---
 
-## 18. Finding Exposed Logs
+#### 18. Finding Exposed Logs
 
 **Purpose:** Find log files that might contain sensitive info.
 
@@ -281,7 +281,7 @@ site:target.com filetype:log
 
 ---
 
-## 19. Finding Credentials or Keys
+#### 19. Finding Credentials or Keys
 
 - Look for AWS credentials:
 
@@ -297,7 +297,7 @@ site:target.com filetype:log
 
 ---
 
-## 20. Other Useful Operators
+#### 20. Other Useful Operators
 
 | Operator      | Description                          | Example                              |
 |---------------|----------------------------------|------------------------------------|
@@ -312,7 +312,7 @@ site:target.com filetype:log
 
 ---
 
-# Notes and Tips
+#### Notes and Tips
 
 - Combine operators to narrow down searches.
 - Use quotes `""` to search exact phrases.
@@ -321,7 +321,7 @@ site:target.com filetype:log
 
 ---
 
-# Resources
+#### Resources
 
 - [Google Dorks Database (Exploit-DB)](https://www.exploit-db.com/google-hacking-database)
 - [Google Operators](https://ahrefs.com/blog/google-advanced-search-operators/)
@@ -329,7 +329,7 @@ site:target.com filetype:log
 
 ---
 
-# Disclaimer
+#### Disclaimer
 
 This document is for educational and authorized penetration testing purposes only. Unauthorized scanning or data harvesting may be illegal.
 
