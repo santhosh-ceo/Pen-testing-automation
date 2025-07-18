@@ -11,6 +11,10 @@
 
 ```./zone_transfer_check.sh```
 
+
+
+
+
 ## Recon Automation
 
 #### Make it executable:
@@ -44,6 +48,9 @@ Make sure the following tools are installed :
     gf
 
     waybackurls
+
+
+
 
 
 ## NMAP Automation
@@ -83,6 +90,8 @@ nmap is installed
 You have permission to scan the target
 
 
+
+
 ## Hash Cracher
 
 #### Requirements
@@ -101,3 +110,27 @@ You have permission to scan the target
 #### Run it:
 
 ```./hash_cracker.sh```
+
+
+
+
+## Auto Travelsal Scanner
+
+
+#### Make executable:
+
+```chmod +x auto_traversal_scanner.sh```
+
+#### Run it:
+
+```./auto_traversal_scanner.sh```
+
+#### Required Tools:
+
+    curl
+
+    gau: go install github.com/lc/gau/v2/cmd/gau@latest
+
+    waybackurls: go install github.com/tomnomnom/waybackurls@latest
+
+
