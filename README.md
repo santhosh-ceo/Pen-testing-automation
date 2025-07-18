@@ -1,2 +1,12 @@
 # Pen-testing-automation
-Scripts to automate pen testing
+
+
+## Zone Transfer
+
+#### Make it executable:
+
+```chmod +x zone_transfer_check.sh```
+
+#### Run it:
+
+```./zone_transfer_check.sh```
