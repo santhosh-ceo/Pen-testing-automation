@@ -81,3 +81,23 @@ Make sure the following tools are installed :
 nmap is installed
 
 You have permission to scan the target
+
+
+## Hash Cracher
+
+#### Requirements
+
+    john (John the Ripper)
+
+    hashid (install with pip install hashid)
+
+    rockyou.txt wordlist (usually in /usr/share/wordlists/ on Kali)
+
+
+#### Make it executable:
+
+```chmod +x hash_cracker.sh```
+
+#### Run it:
+
+```./hash_cracker.sh```
